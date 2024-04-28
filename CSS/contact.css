@@ -1,0 +1,124 @@
+*{
+    margin: auto;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: blanchedalmond;
+        
+}
+
+    header {
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    align-items: center;
+    padding: 60px;
+    background: #2f0494;
+        position: relative;
+    h1{
+    color: white;
+    text-align: center;
+    }
+    h2{
+        color: white;
+        text-align: center;
+    }
+    }
+    .nav{
+        background: #2f0494;
+        display: flex;
+        position: relative;
+        margin-right:10%;
+        float: right;
+         overflow: hidden;
+    }
+    
+    .nav a{
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    
+    }
+    
+    .nav a:hover{
+        background-color: #ddd;
+        color: black;
+        border-radius: 20px;
+    
+        .nav a::after{
+            content: attr(type);
+        }
+    }
+    
+    .nav a:active{
+        background-color: yellow;
+    }
+
+    .nav a:visited{
+        background-color: red;
+    }
+    .container{     
+        max-width: 800px;
+         margin: 20px auto;
+            padding: 20px;
+        margin: auto;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center; 
+    
+   }
+
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+a{
+    color: white;
+}
+  }
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(25, 73, 175);
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }    
+
+footer{
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    text-align: center;    
+}
+
+footer a{
+    float: right;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+    
+}
+ footer i{
+    color: white;
+ }
+
+footer i:hover{
+    color: red;
+    opacity: .5;
+}
