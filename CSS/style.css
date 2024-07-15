@@ -61,8 +61,7 @@ body{
     .container{     
         max-width: 800px;
          margin: 10px auto;
-            padding: 20px;
-        margin: auto;
+            padding: 20px auto;
     }
     .post-section {
     width: 100%;
